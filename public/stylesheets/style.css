@@ -1,0 +1,55 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: auto;
+}
+
+
+
+p{
+  text-align: center;
+}
+
+a:hover{
+  color: rgb(235, 26, 26);
+}
+
+html{
+  background-color: rgb(122, 120, 120);
+}
+
+body{
+  max-width: 900px;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+}
+
+#parent{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#item{
+  flex: 1 0 41%; 
+  margin: 5px;
+  margin-top: 15px;
+}
+
+img{
+  width: 90%;
+  display:block;
+  margin:auto;
+}
+
+img:hover{
+  width: 100%;
+  animation-duration: 1s;
+  box-shadow: 10px 10px 5px rgb(54, 54, 54);
+  
+}
+
+
+
