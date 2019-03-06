@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/Bangalore', function(req, res, next) {
-  res.render('bangalore', { title: "Bangalore" });
+  res.render('Bangalore', { title: "Bangalore" });
 });
 
 router.get('/Bloodhound', function(req, res, next) {
